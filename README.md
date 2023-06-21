@@ -22,7 +22,7 @@
 On nam specifično služi za "buildanje" našeg SCSS koda pritiskom CRTL + SHIFT + B. 
 Kada se pritisne ta kombinacija tipki, Visual Studio Code će uzeti sve SCSS skripte i prepisati njihove vrijednosti direktno u style.css datoteku.
 
-> **Stoga je bitno da se stilo ne pišu u style.css datoteku**
+> **Stoga je bitno da se stilovi ne pišu u style.css datoteku!**
 
 ### 2. CSS
 
