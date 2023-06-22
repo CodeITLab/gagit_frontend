@@ -19,8 +19,9 @@
         <img height="20" src="/assets/img/icons/angle-down.png" alt="">
       </li>
       <li class="main-menu-item">
-        <input type="text" name="search">
-        <img height="20" src="/assets/img/icons/search.png" alt="">
+        <form method="get" action="/search" id="search-form">
+          <input id="search-field" name="q" type="text" size="70" placeholder="Search GaggiT..." />
+        </form>
       </li>
       <li class="main-menu-item">
         <a href="#">Log in</a>
@@ -36,9 +37,7 @@
           <div class="post-item"></div>
         </div>
       </section>
-      <aside id="aside-section">
-        
-      </aside>
+      <aside id="aside-section"></aside>
     </div>
   </main>
 
