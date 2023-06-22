@@ -1,13 +1,13 @@
-*{
+* {
   font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
   margin: 0;
 }
 
-body{
+body {
   background: #131212;
 }
 
-.menu2{
+.menu2 {
   width: 100%;
   max-width: 760px;
   margin: 0 auto;
@@ -17,19 +17,18 @@ body{
   border: 2px solid #9747FF;
 }
 
-nav{
+nav {
   background: #353434;
   margin: 0 auto;
   border-radius: 5px 5px 5px 5px;
-      
 }
 
-nav ul{
+nav ul {
   list-style-type: none;
   padding: 0;
 }
 
-nav a{
+nav a {
   text-decoration: none;
   text-align: center;
   font-size: 20px;
@@ -39,28 +38,17 @@ nav a{
   padding: 10px;
 }
 
-nav a:hover{
-background-color: #9747FF;
+nav a:hover {
+  background-color: #9747FF;
 }
 
-@media screen and (min-width: 768px){
-  
-nav ul{
-  display: flex;
-  justify-content:center;align-items:center ;
-}
-
-nav li{
-  flex: 1 1 0;
-}
-
-
-
-
-
-
-
-
-
-
-}
+@media screen and (min-width: 768px) {
+  nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav li {
+    flex: 1 1 0;
+  }
+} /*# sourceMappingURL=style.css.map */
