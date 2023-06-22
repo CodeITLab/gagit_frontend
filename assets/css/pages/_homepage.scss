@@ -5,6 +5,7 @@ main {
 .container {
     display: flex;
     flex-direction: row;
+    gap: 2%;
 }
 
 #posts-section {
