@@ -60,7 +60,7 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: grey;
+  background-color: #353434;
   height: 30px;
 }
 
@@ -79,6 +79,46 @@ header {
 .list-item a {
   color: white;
   text-decoration: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 0 5% 0 5%;
+  background-color: #353434;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.main-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  color: white;
+}
+
+.main-menu-item {
+  display: flex;
+  align-items: center;
+}
+
+.main-menu-item a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-menu:nth-child(1) p {
+  margin-right: 100px;
+}
+
+.main-menu-item > input {
+  margin-right: 20px;
+}
+
+.main-title {
+  font-size: 28px;
+  font-weight: bold;
 }
 
 html, body, main {
