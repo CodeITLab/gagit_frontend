@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+.main-title, .aside-section-post-header h3 {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.list-item, 
+.aside-categories-item, 
+.main-menu-item a,
+.main-menu-item p,
+#search-field::placeholder {
+    font-family: 'Nunito', sans-serif;
+}
+
