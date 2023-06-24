@@ -1,4 +1,9 @@
+@use 'abstracts/fonts';
 @use 'base/reset';
 @use 'components/buttons';
+@use 'components/navbar-filter';
+@use 'components/main-menu';
+@use 'components/aside';
+@use 'layout/general';
 @use 'pages/homepage';
 @use 'pages/user-profile';

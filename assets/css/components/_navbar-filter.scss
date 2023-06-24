@@ -1,0 +1,30 @@
+header {
+    position: absolute;
+}
+
+#navbar-filter-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid purple;
+    border-radius: 10px;
+    background-color: #353434;
+    height: 30px;
+}
+
+.navbar-menu-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.list-item {
+    display: inline-block;
+    list-style: none !important;
+}
+
+.list-item a {
+    color: white;
+    text-decoration: none;
+}

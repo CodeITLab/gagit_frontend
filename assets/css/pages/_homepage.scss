@@ -1,0 +1,17 @@
+main {
+    padding: 0 10% 0 10%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+}
+
+#posts-section {
+    flex-grow: 2;
+}
+
+#aside-section {
+    flex-grow: 1;
+}

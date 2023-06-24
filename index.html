@@ -4,16 +4,57 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gagit</title>
+  <title>Gaggit</title>
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <nav></nav>
-  <header></header>
+
+  <nav>
+    <ul class="main-menu">
+      <li class="main-menu-item">
+        <h1 class="main-title">GaggiT</h1>
+      </li>
+      <li class="main-menu-item">
+        <p>Dive in</p>
+        <img height="20" src="/assets/img/icons/angle-down.png" alt="">
+      </li>
+      <li class="main-menu-item">
+        <form method="get" action="/search" id="search-form">
+          <input id="search-field" name="q" type="text" size="70" placeholder="Search GaggiT..." />
+        </form>
+      </li>
+      <li class="main-menu-item">
+        <a href="#">Log in</a>
+      </li>
+    </ul>
+  </nav>
+
   <main>
-    <aside></aside>
-    <section></section>
+    <div class="container">
+      <section id="posts-section">
+        <div id="navbar-filter-menu"></div>
+        <div class="posts-wrapper">
+          <div class="post-item"></div>
+        </div>
+      </section>
+      <aside id="aside-section">
+        <div class="aside-section-wrapper">
+          <div class="aside-section-post">
+            <div class="aside-section-post-header">
+              <h3>Popular comunities</h3>
+              <hr class="separator">
+            </div>
+            <div class="aside-section-post-body">
+              <ul id="aside-categories-container" class="aside-categories"></ul>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </div>
   </main>
+
   <footer></footer>
+
+  <script type="module" src="/assets/js/app.js"></script>
 </body>
 </html>
