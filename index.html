@@ -9,39 +9,84 @@
 </head>
 <body>
 
-  <nav>
-    <ul class="main-menu">
-      <li class="main-menu-item">
-        <h1 class="main-title">GaggiT</h1>
-      </li>
-      <li class="main-menu-item">
-        <p>Dive in</p>
-        <img height="20" src="/assets/img/icons/angle-down.png" alt="">
-      </li>
-      <li class="main-menu-item">
-        <form method="get" action="/search" id="search-form">
-          <input id="search-field" name="q" type="text" size="70" placeholder="Search GaggiT..." />
-        </form>
-      </li>
-      <li class="main-menu-item">
-        <a href="#">Log in</a>
-      </li>
-    </ul>
-  </nav>
+<!---------------------------------------Main menu (header)---------------------------------->
 
+  <nav class="header">
+    <ul class="main-menu">
+        <li class="main-menu1 gag_it"><a href="">GaggiT</a></li>
+        <li class="main-menu1 dive_in">
+            <p>Dive in</p>
+            <img height="20" src="assets/img/icons/angle-down.png" alt="">
+        </li>
+        <li class="main-menu1 search_bar">
+            <form method="get" action="/search" id="search_bar1">
+                <input id="search field" type="text" size="30" placeholder="Search GaggiT..." name="q">
+            </form>
+        </li>
+        <li class="main-menu1 log_in">
+            <a href="#">Log in</a>
+        </li>
+    </ul>
+</nav>
+<!---------------------------------------Navbar + Post wrapper---------------------------------->
   <main>
     <div class="container">
       <section id="posts-section">
         <div id="navbar-filter-menu"></div>
         <div class="posts-wrapper">
-          <div class="post-item"></div>
+<!---------------------------------------Post---------------------------------->
+          <div class="post-item">
+            <div class="upvotes">
+              <div>
+                <img class="upvote-arrow-up" height="17" src="assets/img/icons/arrow.png" alt="">
+                <div class="numbers">
+                  <h3>666</h3>
+                </div>
+                <img class="upvote-arrow-down" height="17" src="assets/img/icons/arrow-down.png" alt="">
+              </div>                              
+            </div>                    
+            <div class="post-item-body">    
+              <div class="post-item-header">
+                <div class="icon" >
+                  <img height="20" src="assets/img/icons/King_in_Yellow.png" alt="">
+                </div>
+                <div class="post-item-header-content" >
+                  <h3 class="post-item-placeholder" >post item header</h3>
+                </div>
+                <div>
+                  <button>Join</button>
+                </div>
+              </div>  
+              <div class="post-title" >
+                <div class="post-title-content" >
+                  <a href="">Pijan mislio da pere prozor, a u biti je ševio kozu</a>
+                </div>
+              </div>
+              <div class="post-content">
+                <img src="assets/img/icons/bruce.jpg" alt="">
+              </div>
+              <div class="post-footer-section">
+                <a class="coment" href="">Coment</a>
+                <div class="share">
+                  <button> Share </button>
+                </div>
+                <div class="save">
+                  <button> Save </button>
+                </div>
+                <div class="three-dots">
+                  <button> ... </button>
+                </div> 
+               </div>                                                            
+            </div>                
+          </div>
         </div>
       </section>
+<!---------------------------------------Aside section (popular communities)---------------------------------->
       <aside id="aside-section">
         <div class="aside-section-wrapper">
           <div class="aside-section-post">
             <div class="aside-section-post-header">
-              <h3>Popular comunities</h3>
+              <h3>Popular communities</h3>
               <hr class="separator">
             </div>
             <div class="aside-section-post-body">

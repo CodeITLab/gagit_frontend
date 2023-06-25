@@ -4,27 +4,39 @@ header {
 
 #navbar-filter-menu {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    border: 2px solid purple;
-    border-radius: 10px;
+    border: 1px solid #9747FF;
+    border-radius: 5px;
     background-color: #353434;
     height: 30px;
 }
 
 .navbar-menu-list {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     width: 100%;
 }
 
+.list-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+
 .list-item {
-    display: inline-block;
     list-style: none !important;
+    flex: 1 1 0;
 }
 
 .list-item a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     text-decoration: none;
+}
+
+.list-item:hover{
+background-color: #9747FF;
 }

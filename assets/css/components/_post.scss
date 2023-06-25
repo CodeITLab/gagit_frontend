@@ -1,0 +1,207 @@
+.post-item{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.post-item{
+    background-color: #222121;
+    height: 300px;
+    margin-top: 20px;
+    border-radius: 5px;
+    position: relative;
+    padding-left: 30px;
+}
+
+.post-item-body{
+    height: 100%;
+    background-color: #353434;
+}
+
+.post-item:hover{
+    border: 1px solid #9747FF;
+}
+
+.upvotes{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;   
+}
+
+.upvotes{
+    position: absolute;
+    width: 30px;
+    top:0;
+    left: 0;
+    background-color: #222121;
+    border-top-left-radius: 5px;
+    color: #D9D9D9;
+}
+
+.upvotes h3{
+font-size: 10px;
+text-align: center;
+}
+
+.upvote-arrow-up{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin: 0 auto;
+    padding: 15px 0 5px 0
+}
+
+.upvote-arrow-down{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin: 0 auto;
+    padding: 5px 0 0 0
+}
+// -------------------------- info o accountu,communiti, join button------------------------------------
+.post-item-header{
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    position: relative;
+}
+
+.post-item-header{
+    background-color: #222121;
+    height: 25px;
+    border-top-right-radius: 5px;
+    border-bottom: 1px solid #9747FF;
+    padding: 0 8px 0 8px;
+}
+
+.post-item-header button{
+    background:none;
+    border: 0;
+    color: #D9D9D9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.post-item-header button:hover{
+    background-color: #9747FF;
+    border-radius: 5px;
+}
+
+.post-item-header-content{
+    font-style: italic;
+    font-size: 15px;
+    color: #D9D9D9;
+    padding-left: 5px;
+}
+
+.post-item-header-content{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+}
+
+// -------------------------- Naslov posta------------------------------------
+
+.post-title{
+    margin: 8px 8px 8px 8px;
+}
+
+.post-title-content a{
+    text-decoration: none;
+    color: #D9D9D9;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+// -------------------------- Sadržaj posta------------------------------------
+.post-content{
+    display: flex;
+    justify-content: center;
+    max-height: 210px;
+}
+
+.post-content img{
+    max-height: 300px;
+    display: block;
+    max-width: 100%;
+    position: relative;
+}
+
+
+.content{
+    display: flex;
+    align-content:center;
+    
+}
+// -------------------------- Comments, share, save & ...------------------------------------
+.post-footer-section{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    min-height: 30px;
+    background-color: #353434;
+    overflow-y: visible;
+}
+
+.coment{
+    display: flex;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #D9D9D9;
+    padding-right: 5px;
+    padding-left: 8px;
+}
+
+.coment:hover{
+    background-color: #9747FF;
+    border-radius: 5px;
+}
+
+.share{
+    display: flex;
+    padding-right: 5px;
+}
+
+.share button{
+    background:none;
+    border: 0;
+    color: #D9D9D9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.share button:hover{
+    background-color: #9747FF;
+    border-radius: 5px;
+}
+
+.save{
+    display: flex;
+    padding-right: 5px;
+}
+
+.save button{
+    background:none;
+    border: 0;
+    color: #D9D9D9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.save button:hover{
+    background-color: #9747FF;
+    border-radius: 5px;
+}
+
+.three-dots{
+    display: flex;
+}
+
+.three-dots button{
+    background:none;
+    border: 0;
+    color: #D9D9D9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.three-dots button:hover{
+    background-color: #9747FF;
+    border-radius: 5px;
+}
