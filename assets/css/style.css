@@ -107,6 +107,7 @@ header {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
   text-decoration: none;
+  margin-left: 5px;
 }
 
 .list-item:hover {
