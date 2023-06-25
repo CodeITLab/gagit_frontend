@@ -1,3 +1,6 @@
+.posts-wrapper{
+    border-radius: 5px;
+}
 .post-item{
     display: flex;
     justify-content:center;
@@ -14,8 +17,15 @@
 }
 
 .post-item-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.post-item-body{
     height: 100%;
     background-color: #353434;
+    border-radius: 5px;
 }
 
 .post-item:hover{
@@ -24,18 +34,20 @@
 
 .upvotes{
     display: flex;
-    justify-content: center;
+    justify-content: start;
     flex-direction: column;
     align-content: center;   
 }
 
 .upvotes{
     position: absolute;
+    height: 100%;
     width: 30px;
     top:0;
     left: 0;
     background-color: #222121;
     border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
     color: #D9D9D9;
 }
 
@@ -49,7 +61,7 @@ text-align: center;
     justify-content: space-evenly;
     align-content: center;
     margin: 0 auto;
-    padding: 15px 0 5px 0
+    padding: 30px 0 5px 0
 }
 
 .upvote-arrow-down{
@@ -138,9 +150,9 @@ text-align: center;
     display: flex;
     align-items: center;
     flex-direction: row;
-    min-height: 30px;
+    height: 30px;
     background-color: #353434;
-    overflow-y: visible;
+    border-bottom-right-radius:  5px;
 }
 
 .coment{
