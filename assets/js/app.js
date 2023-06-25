@@ -1,4 +1,4 @@
-import createNavbarElement from './components/navbar-component.js';
+import createNavbarElement from './components/navbar-component/navbar-component.js';
 import createAsideCategories from './components/aside-categories-component.js'; 
 
 createNavbarElement();
