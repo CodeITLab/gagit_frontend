@@ -24,10 +24,39 @@
             </form>
         </li>
         <li class="main-menu1 log_in">
-            <a href="#">Log in</a>
+            <button id="login-button">Log In</button>
         </li>
     </ul>
 </nav>
+<!---------------------------------------Login Popup---------------------------------->
+<div id="login-popup-wrapper" class="popup-wrapper" >
+  <div class="popup-content" >
+    <span class="close">&times;</span>
+      <div class="popup-text-box-wrapper">
+        <div class="popup-text-box" >
+          <div class="login-title" >
+            <h3>Log In</h3>
+          </div>
+          <div class="user-agreement-privacy-policy" >
+            <p>By continuing, you are setting up a GaggiT account and agree to our <a href=""> User Agreement</a> and <a href=""> Privacy Policy</a>.</p>
+          </div>
+          <form class="login-options" action="/login" method="post">
+            <div class="social">
+              <div class="login-option-social-buttons" >
+                <div class="login-option-social-button-one">
+                 <a href="formu.html">Google Account</a>
+                </div>
+                <div class="login-option-social-button-two" >
+                 <a href="">Facebook Account</a>
+                </div>
+            </div>
+          </div>           
+          </form>
+        </div>
+      </div>
+  </div>
+</div>
+
 <!---------------------------------------Navbar + Post wrapper---------------------------------->
   <main>
     <div class="container">
@@ -38,28 +67,28 @@
           <div class="post-item">
             <div class="upvotes">
               <div>
-                <img class="upvote-arrow-up" height="17" src="assets/img/icons/arrow.png" alt="">
+                <img class="upvote-arrow-up" height="25" src="assets/img/icons/filter-navbar-icons/arrow.png" alt="">
                 <div class="numbers">
                   <h3>666</h3>
                 </div>
-                <img class="upvote-arrow-down" height="17" src="assets/img/icons/arrow-down.png" alt="">
+                <img class="upvote-arrow-down" height="25" src="assets/img/icons/arrow-down.png" alt="">
               </div>                              
             </div>                    
             <div class="post-item-body">    
               <div class="post-item-header">
                 <div class="icon" >
-                  <img height="20" src="assets/img/icons/King_in_Yellow.png" alt="">
+                  <img height="30" src="assets/img/icons/King_in_Yellow.png" alt="">
                 </div>
                 <div class="post-item-header-content" >
-                  <h3 class="post-item-placeholder" >post item header</h3>
+                  <h3 class="post-item-placeholder" >Funny</h3>
                 </div>
                 <div>
-                  <button>Join</button>
+                  <button class="join-button" >Join</button>
                 </div>
               </div>  
               <div class="post-title" >
                 <div class="post-title-content" >
-                  <a href="">Pijan mislio da pere prozor, a u biti je ševio kozu</a>
+                  <a href="">Silver boomstick for crazy demons...</a>
                 </div>
               </div>
               <div class="post-content">
@@ -68,13 +97,13 @@
               <div class="post-footer-section">
                 <a class="coment" href="">Coment</a>
                 <div class="share">
-                  <button> Share </button>
+                  <button class="post-footer-button" > Share </button>
                 </div>
                 <div class="save">
-                  <button> Save </button>
+                  <button class="post-footer-button" > Save </button>
                 </div>
                 <div class="three-dots">
-                  <button> ... </button>
+                  <button class="post-footer-button" > ... </button>
                 </div> 
                </div>                                                            
             </div>                
@@ -94,10 +123,24 @@
             </div>
           </div>
         </div>
+        <div class="usef-footer-divider">
+          <div class="user-footer" >
+            <div class="user-agreement-content-policy" >
+              <a href="">User Agreement</a>
+              <a href="">Content Policy</a>
+            </div>
+            <div class="privacy-policy" >
+              <a href="">Privacy Policy</a>
+            </div>         
+          </div>
+          <span class="divader" ></span>
+        </div>
+       
       </aside>
     </div>
   </main>
-
+  
+  
   <footer></footer>
 
   <script type="module" src="/assets/js/app.js"></script>

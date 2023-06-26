@@ -7,6 +7,7 @@
     display: flex;
     justify-content: center; 
     align-items: center;
+    height: 50px;
     background: #353434;
     padding: 0 15px 0 15px;
     border-bottom: 1px solid #9747FF;
@@ -33,7 +34,7 @@
 
 .gag_it a{
     font-weight: bold;
-    font-size: 25px;
+    font-size: 30px;
     text-decoration: none;
     color: #ffff;
 
@@ -46,7 +47,7 @@
     align-items: center;
     padding-left: 15px;
     padding-right: 15px;
-    height: 30px;
+    height: 40px;
 }
 
 .dive_in{
@@ -59,9 +60,11 @@
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
-    font-size: 15px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #D9D9D9;
     border-radius: 20px;
+    border: 1px solid transparent;
 }
 
 .dive_in:hover{
@@ -97,9 +100,9 @@
     text-align: left;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
-    font-size: 12px;
-    height:30px ;
-    border: 0;
+    font-size: 15px;
+    height:35px ;
+    border: 1px solid transparent;
     border-radius: 20px;
     padding-left:40px;
 }
@@ -117,18 +120,25 @@
 .log_in{
     text-align: center;
     color: #D9D9D9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
     background-color: #353434;
     border: 0;
-    height: 30px;
+    height: 40px;
     flex-grow: 1;
 }
 
-.log_in a{
-    text-decoration: none;
+#login-button{
+    padding: 9px 30px;
+    border:none;
+    background: none;
     color: #D9D9D9;
 }
 
-.log_in:hover{
+#login-button:hover{
     background-color: #9747FF;
     border-radius: 20px;
 }
+
+

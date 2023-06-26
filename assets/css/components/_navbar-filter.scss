@@ -9,7 +9,7 @@ header {
     border: 1px solid #9747FF;
     border-radius: 5px;
     background-color: #353434;
-    height: 30px;
+    height: 45px;
 }
 
 .navbar-menu-list {
@@ -23,7 +23,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30px;
+    height: 45px;
 }
 
 .list-item {
@@ -36,6 +36,7 @@ header {
     color: white;
     text-decoration: none;
     margin-left: 5px;
+    font-size: 18px;
 }
 
 .list-item:hover{

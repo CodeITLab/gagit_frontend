@@ -6,14 +6,14 @@ export const navbarFilterItems = [
     },
     {
         "title": "Top",
-        "icon": iconsPath + "home.png"
+        "icon": iconsPath + "arrow.png"
     },
     {
         "title": "Trending",
-        "icon": iconsPath + "home.png"
+        "icon": iconsPath + "arrow-trend-up.png"
     }, 
     {
         "title": "New",
-        "icon": iconsPath + "home.png"
+        "icon": iconsPath + "new.png"
     }
 ];
