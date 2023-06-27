@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gaggit</title>
-  <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GaggiT</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-
-<!---------------------------------------Main menu (header)---------------------------------->
+    <!---------------------------------------Main menu (header)---------------------------------->
 
   <nav class="header">
     <ul class="main-menu">
@@ -24,7 +22,7 @@
             </form>
         </li>
         <li class="main-menu1 log_in">
-            <button id="login-button">Log In</button>
+            <button id="login-button">Log Out</button>
         </li>
     </ul>
 </nav>
@@ -58,7 +56,7 @@
 </div>
 
 <!---------------------------------------Navbar + Post wrapper---------------------------------->
-  <main>
+<main>
     <div class="container">
       <section id="posts-section">
         <div id="navbar-filter-menu"></div>
@@ -114,25 +112,67 @@
           </div>
         </div>
       </section>
+
 <!---------------------------------------Aside section (popular communities)---------------------------------->
-      <aside id="aside-section">
+
+    <aside id="aside-section">
         <div class="aside-section-wrapper">
+            <div class="acc-info-wrapper">
+                <div class="acc-info" >
+                    <div class="acc-info-img">
+                        <img height="40" src="assets/img/icons/King_in_Yellow.png" alt="">
+                   </div>
+                    <div class="acc-info-img">
+                        <p>King_in_Yellow</p>
+                    </div>
+                </div>
+                <div class="acc-info-divader" ></div>
+                <div class="sotial-icons" >
+                    <div class="post-pencil">
+                        <div class="pencile-icon" >
+                            <img height="14" src="assets/img/icons/pencil.png" alt="">
+                        </div>
+                        <a href="">Post</a>  
+                    </div>
+                    <div class="chat-coment">
+                        <div class="comment-icon">
+                            <img height="14" src="assets/img/icons/comment-alt.png" alt="">
+                        </div>
+                        <a href="">Chat</a>
+                    </div>
+                    <div class="mail-envelope" >
+                        <div class="envelope-icon">
+                            <img height="14" src="assets/img/icons/envelope.png" alt="">
+                        </div>
+                        <a href="">Mail</a>
+                    </div>
+                
+                </div>
+            </div> 
           <div class="aside-section-post">
-            <div class="aside-section-post-header">
-              <h3>Popular communities</h3>
+            <div class="aside-section-post-header-following">
+                <h3>Following</h3>
+                <hr class="separator">
+            </div>
+            <div class="aside-section-post-body-following">
+
+            </div>
+            <div class="aside-section-post-header-favorites">
+              <h3>Favorites</h3>
               <hr class="separator">
             </div>
             <div class="aside-section-post-body">
               <ul id="aside-categories-container" class="aside-categories"></ul>
-            </div>          
-        </div>
-        <div class="terms-and-policies-section-wrapper">
-          <div class="terms-and-policies-section" >
-              <a href="">Help center</a>
-              <a href="">Terms and Policies</a>
-              <a href="">Advertise on GaggiT</a>
-              <a href="">More</a>
+            </div>
           </div>
+          <div class="terms-and-policies-section-wrapper">
+            <div class="terms-and-policies-section" >
+                <a href="">Help center</a>
+                <a href="">Terms and Policies</a>
+                <a href="">Advertise on GaggiT</a>
+                <a href="">More</a>
+            </div>
+        </div> 
         </div>
         <div class="usef-footer-divider">
           <div class="user-footer" >
@@ -156,5 +196,7 @@
   <footer></footer>
 
   <script type="module" src="/assets/js/app.js"></script>
+
+
 </body>
 </html>

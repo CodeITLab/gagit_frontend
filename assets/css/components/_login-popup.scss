@@ -1,0 +1,123 @@
+/* ---------------Popup (background)----------*/
+.popup-wrapper {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    width: 400px; /* Full width */ /* Full height */
+    background:none; /* Black w/ opacity */
+    margin-left: 500px;
+    margin-top: 25px;
+  }
+  
+  /* ---------------Popup sadržaj------------------- */
+  .popup-content {
+    background-color: #353434;
+    margin: auto;
+    width: 80%;
+    height: 300px;
+    border: 2px solid #9747FF;
+    border-radius: 5px;
+  }
+
+  .popup-content{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+  }
+    
+  .popup-text-box-wrapper{
+  max-width: 280px;
+  height: 100%;
+  margin: 0 auto;
+  align-self: center;
+  }
+  .popup-text-box{
+    max-width: 280px;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  .popup-text-box{
+    display: flex;
+    flex-direction: column;
+    align-self:center
+  }
+
+  .login-title h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #d4d2d2;
+  }
+
+  .user-agreement-privacy-policy a{
+    color: rgb(65, 65, 252);
+
+  }
+
+  .popup-content p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 8px;
+    color: #D9D9D9;
+  }
+
+  .social{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .login-option-social-buttons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    box-sizing: border-box;
+    margin-bottom: 18px;
+    width: 200px;
+    
+  }
+
+  .login-option-social-buttons a{
+    text-decoration: none;
+    color: #353434;
+  }
+
+  .login-option-social-button-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d4d2d2;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 20px;
+  }
+  .login-option-social-button-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5f78f5;
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+  /*------------------- Gumb za zatvaranje popapua-------------- */
+  .close {
+    display: flex;
+    justify-content: right;
+    color: #c4c2c2;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 5px 20px 0 0;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }

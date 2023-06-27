@@ -2,7 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 
 .main-title, .aside-section-post-header h3 {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.aside-section-post-header-favorites, .aside-section-post-header-following{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
 }
 
 .list-item, 
@@ -13,3 +18,40 @@
     font-family: 'Nunito', sans-serif;
 }
 
+.post-footer-button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.join-button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#login-button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.popup-login-button{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.user-footer a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.privacy-policy a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.terms-and-policies-section a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
