@@ -3,9 +3,200 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>GaggiT</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    
+    <!---------------------------------------Main menu (header)---------------------------------->
+
+  <nav class="header">
+    <ul class="main-menu">
+        <li class="main-menu1 gag_it"><a href=""><img src="assets/img/icons/GaggiTLogo.png" alt=""></a></li>
+        <li class="main-menu1 dive_in">
+            <p>Dive in</p>
+            <img height="20" src="assets/img/icons/angle-down.png" alt="">
+        </li>
+        <li class="main-menu1 search_bar">
+            <form method="get" action="/search" id="search_bar1">
+                <input id="search field" type="text" size="30" placeholder="Search GaggiT..." name="q">
+            </form>
+        </li>
+        <li class="main-menu1 log_in">
+            <button id="login-button">Log Out</button>
+        </li>
+    </ul>
+</nav>
+<!---------------------------------------Login Popup---------------------------------->
+<div id="login-popup-wrapper" class="popup-wrapper" >
+  <div class="popup-content" >
+    <span class="close">&times;</span>
+      <div class="popup-text-box-wrapper">
+        <div class="popup-text-box" >
+          <div class="login-title" >
+            <h3>Log In</h3>
+          </div>
+          <div class="user-agreement-privacy-policy" >
+            <p>By continuing, you are setting up a GaggiT account and agree to our <a href=""> User Agreement</a> and <a href=""> Privacy Policy</a>.</p>
+          </div>
+          <form class="login-options" action="/login" method="post">
+            <div class="social">
+              <div class="login-option-social-buttons" >
+                <div class="login-option-social-button-one">
+                 <a href="formu.html">Google Account</a>
+                </div>
+                <div class="login-option-social-button-two" >
+                 <a href="">Facebook Account</a>
+                </div>
+            </div>
+          </div>           
+          </form>
+        </div>
+      </div>
+  </div>
+</div>
+
+<!---------------------------------------Navbar + Post wrapper---------------------------------->
+<main>
+    <div class="container">
+      <section id="posts-section">
+        <div id="navbar-filter-menu"></div>
+        <div class="posts-wrapper">
+<!---------------------------------------Post---------------------------------->
+          <div class="post-item">
+            <div class="upvotes">
+              <div>
+                <button class="upvote">
+                  <img class="upvote-arrow-up" height="25" src="assets/img/icons/filter-navbar-icons/arrow.png" alt="">
+                </button>
+                <div class="numbers">
+                  <h3>666</h3>
+                </div>
+                <button>
+                  <img class="upvote-arrow-down" height="25" src="assets/img/icons/arrow-down.png" alt="">
+                </button>
+              </div>                              
+            </div>                    
+            <div class="post-item-body">    
+              <div class="post-item-header">
+                <div class="icon" >
+                  <img height="30" src="assets/img/icons/King_in_Yellow.png" alt="">
+                </div>
+                <div class="post-item-header-content" >
+                  <h3 class="post-item-placeholder" >Funny</h3>
+                </div>
+                <div>
+                  <button class="join-button" >Join</button>
+                </div>
+              </div>  
+              <div class="post-title" >
+                <div class="post-title-content" >
+                  <a href="">Silver boomstick for crazy demons...</a>
+                </div>
+              </div>
+              <div class="post-content">
+                <img src="assets/img/icons/bruce.jpg" alt="">
+              </div>
+              <div class="post-footer-section">
+                <a class="coment" href="">Coment</a>
+                <div class="share">
+                  <button class="post-footer-button" > Share </button>
+                </div>
+                <div class="save">
+                  <button class="post-footer-button" > Save </button>
+                </div>
+                <div class="three-dots">
+                  <button class="post-footer-button" > ... </button>
+                </div> 
+               </div>                                                            
+            </div>                
+          </div>
+        </div>
+      </section>
+
+<!---------------------------------------Aside section (popular communities)---------------------------------->
+
+    <aside id="aside-section">
+        <div class="aside-section-wrapper">
+            <div class="acc-info-wrapper">
+                <div class="acc-info" >
+                    <div class="acc-info-img">
+                        <img height="40" src="assets/img/icons/King_in_Yellow.png" alt="">
+                   </div>
+                    <div class="acc-info-img">
+                        <p>King_in_Yellow</p>
+                    </div>
+                </div>
+                <div class="acc-info-divader" ></div>
+                <div class="sotial-icons" >
+                    <div class="post-pencil">
+                        <div class="pencile-icon" >
+                            <img height="14" src="assets/img/icons/pencil.png" alt="">
+                        </div>
+                        <a href="">Post</a>  
+                    </div>
+                    <div class="chat-coment">
+                        <div class="comment-icon">
+                            <img height="14" src="assets/img/icons/comment-alt.png" alt="">
+                        </div>
+                        <a href="">Chat</a>
+                    </div>
+                    <div class="mail-envelope" >
+                        <div class="envelope-icon">
+                            <img height="14" src="assets/img/icons/envelope.png" alt="">
+                        </div>
+                        <a href="">Mail</a>
+                    </div>
+                
+                </div>
+            </div> 
+          <div class="aside-section-post">
+            <div class="aside-section-post-header-following">
+                <h3>Following</h3>
+                <hr class="separator">
+            </div>
+            <div class="aside-section-post-body-following">
+
+            </div>
+            <div class="aside-section-post-header-favorites">
+              <h3>Favorites</h3>
+              <hr class="separator">
+            </div>
+            <div class="aside-section-post-body">
+              <ul id="aside-categories-container" class="aside-categories"></ul>
+            </div>
+          </div>
+          <div class="terms-and-policies-section-wrapper">
+            <div class="terms-and-policies-section" >
+                <a href="">Help center</a>
+                <a href="">Terms and Policies</a>
+                <a href="">Advertise on GaggiT</a>
+                <a href="">More</a>
+            </div>
+        </div> 
+        </div>
+        <div class="usef-footer-divider">
+          <div class="user-footer" >
+            <div class="user-agreement-content-policy" >
+              <a href="">User Agreement</a>
+              <a href="">Content Policy</a>
+            </div>
+            <div class="privacy-policy" >
+              <a href="">Privacy Policy</a>
+            </div>         
+          </div>
+          <span class="divader" ></span>
+        </div>
+       
+      </aside>
+    </div>
+  </main>
+  
+  <button id="back-to-top-button" title="Go to top">Back to Top</button>
+  
+  <footer></footer>
+
+  <script type="module" src="/assets/js/app.js"></script>
+
+
 </body>
 </html>

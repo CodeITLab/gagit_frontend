@@ -1,4 +1,6 @@
-
+.container{
+    margin-top: 100px;
+}
 
 .posts-wrapper{
     border-radius: 5px;
@@ -54,6 +56,12 @@
     color: #D9D9D9;
 }
 
+.upvotes button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
 .upvotes h3{
 font-size: 15px;
 text-align: center;
@@ -97,6 +105,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 5px 15px 5px 15px ;
     color: #D9D9D9;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
     
 }
 
@@ -192,6 +201,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 0 5px 0 5px;
     width: 80px;
     height: 25px;
+    cursor: pointer;
 }
 .share button:hover{
     background-color: #9747FF;
@@ -210,6 +220,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 80px;
     height: 25px;
+    cursor: pointer;
 }
 
 .save button:hover{
@@ -228,8 +239,26 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 80px;
     height: 25px;
+    cursor: pointer;
 }
 .three-dots button:hover{
     background-color: #9747FF;
     border-radius: 5px;
+}
+
+#back-to-top-button{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 350px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #9747FF;
+    color: #D9D9D9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
 }
