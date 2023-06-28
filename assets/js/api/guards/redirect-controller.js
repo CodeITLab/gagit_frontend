@@ -1,15 +1,19 @@
-const protectedRoutes = {
-    '/homepage': true
-}
+const protectedRoutes = ['homepage.html']
 
 function isUserAuthenticated() {
     let token = localStorage.getItem('isUserAuthenticated');
-    if(!token) {
+    if(token === null) {
         alert("Access denied. Please login before continuing.")
         window.location.href = 'index.html';
     }
 }
 
-function router() {
-
+function redirectUser() {
+    const currentRoute = window.location.pathname;
+    const isProtected = protectedRoutes.includes(currentRoute);
+    if(!isProtected) {
+        isUserAuthenticated();
+    }
 }
+
+//redirectUser();
