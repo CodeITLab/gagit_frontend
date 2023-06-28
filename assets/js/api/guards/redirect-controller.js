@@ -8,3 +8,7 @@ function isUserAuthenticated() {
         window.location.href = 'index.html';
     }
 }
+
+function router() {
+    
+}
