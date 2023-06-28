@@ -1,7 +1,7 @@
 const protectedRoutes = ['homepage.html']
+const token = localStorage.getItem('isUserAuthenticated');
 
 function isUserAuthenticated() {
-    let token = localStorage.getItem('isUserAuthenticated');
     if(token === null) {
         alert("Access denied. Please login before continuing.")
         window.location.href = 'index.html';

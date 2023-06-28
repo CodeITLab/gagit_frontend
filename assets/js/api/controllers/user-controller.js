@@ -1,0 +1,1 @@
+const userDataURL = "https://gaggit.onrender.com/isUserLoggedIn";
