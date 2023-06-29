@@ -52,14 +52,14 @@
   }
 
   .user-agreement-privacy-policy a{
-    color: rgb(65, 65, 252);
+    color: rgb(102, 102, 253);
 
   }
 
   .popup-content p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: lighter;
-    font-size: 14px;
+    font-size: 12px;
     text-align: left;
     margin-top: 8px;
     color: #D9D9D9;
@@ -84,6 +84,10 @@
   .login-option-social-buttons a{
     text-decoration: none;
     color: #353434;
+  }
+
+  .login-option-social-buttons img{
+    margin-right: 10px;
   }
 
   .login-option-social-button-one{

@@ -62,11 +62,35 @@
     margin-bottom: 10px;
 }
 
-.communities-choice{   
+.chose-a-community-box-options{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #353434;
+    border-radius: 20px;
+    height: 30px;
+    margin-left: 10px;
+    border: 1px solid transparent;
+}
+
+.chose-a-community-box-options img{
+margin-right: 10px;
+}
+
+.chose-a-community-box-options:hover{
+    border: 1px solid #9747FF;
+}
+
+.communities-choice{  
+    background-color: #353434; 
     border: none;
-    height: 30px; 
     padding-left: 10px; 
     margin-left: 10px;
+}
+
+#chose-community-dropdown::placeholder{
+    color: #ffff;
 }
 
 ::placeholder{
@@ -74,10 +98,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.communities-choice:hover{
-    background-color:  #9747FF;
-    border-radius: 20px;
-}
+
 
 .text-section-header{
     display: flex;
@@ -89,7 +110,7 @@
 .text-section-header button{
 border: none;
 background: #9747FF;
-color: #D9D9D9;
+color: #ffff;
 font-weight: bold;
 border-radius: 20px;
 padding: 5px 10px 5px 10px;
@@ -133,13 +154,10 @@ cursor: pointer;
     margin-bottom: 10px;
 }
 
-.styleing-section span{
-    margin-right: 5px;
+.styleing-section img{
+    margin-right: 10px;
+    margin-left: 10px;
     margin-bottom: 5px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    width: 30px;
-    text-align: center;
 }
 
 .styleing-section span:hover{
@@ -167,7 +185,7 @@ cursor: pointer;
     background-color: #9747FF;
     padding: 10px 20px 10px 20px;
     border: none;
-    color: #D9D9D9;
+    color: #ffff;
     font-weight: bold;
     border-radius: 20px;
     cursor: pointer;
@@ -210,4 +228,21 @@ cursor: pointer;
     font-size: 13px;
     padding: 10px;
     border-bottom: 1px solid #9747FF;
+}
+
+#back-to-top-button{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 150px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #9747FF;
+    color: #D9D9D9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
 }
