@@ -1349,6 +1349,23 @@ main {
   display: flex;
   justify-content: left;
   flex-direction: column;
+  margin-top: 20px;
+}
+
+.poster-info a {
+  align-self: center;
+  text-decoration: none;
+  padding-left: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  color: white;
+}
+
+.poster-profile-pic {
+  display: flex;
+  justify-content: left;
+  align-content: center;
+  margin-top: 10px;
 }
 
 .sotial-buttons {
@@ -1359,6 +1376,18 @@ main {
 
 .sotial-buttons button {
   margin-right: 5px;
+  background: none;
+  border: 0;
+  color: #D9D9D9;
+  padding: 0 5px 0 5px;
+  width: 80px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.sotial-buttons button:hover {
+  background-color: #9747FF;
+  border-radius: 5px;
 }
 
 .divader-under-sotial-buttons {
@@ -1372,4 +1401,32 @@ main {
   display: flex;
   justify-content: left;
   flex-direction: column;
+}
+
+.other-poster-info {
+  display: flex;
+  justify-content: left;
+  align-content: center;
+  flex-direction: row;
+  margin-top: 0;
+  margin-left: 40px;
+}
+
+.other-poster-info p {
+  color: white;
+  font-size: 12px;
+}
+
+.other-poster-info a {
+  color: white;
+  font-size: 12px;
+  font-style: italic;
+  padding-left: 0;
+}
+
+.post-title {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */
