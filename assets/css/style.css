@@ -1330,4 +1330,46 @@ main {
   padding: 10px 20px 10px 20px;
   border-radius: 20px;
   cursor: pointer;
+}
+
+.post-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 720px;
+}
+
+.post {
+  align-self: center;
+  margin-top: 20px;
+  max-width: 720px;
+}
+
+.poster-info {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+}
+
+.sotial-buttons {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+}
+
+.sotial-buttons button {
+  margin-right: 5px;
+}
+
+.divader-under-sotial-buttons {
+  width: 720px;
+  height: 1px;
+  background-color: #9747FF;
+  margin-top: 20px;
+}
+
+.poster-info {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
 }/*# sourceMappingURL=style.css.map */
