@@ -1082,6 +1082,7 @@ main {
   box-sizing: border-box;
   flex-direction: row;
   justify-content: center;
+  align-self: center;
 }
 
 .create-a-post-and-side-section {
@@ -1096,7 +1097,7 @@ main {
   border-radius: 5px;
   border: 1px solid #9747FF;
   margin-left: 50px;
-  width: 100%;
+  width: 1200px;
 }
 
 .create-a-post-header {
@@ -1199,9 +1200,17 @@ main {
   margin: 10px;
 }
 
+.text-section-title textarea:focus {
+  outline: none;
+  border: 2px solid #9747FF;
+}
+
 .text-section-title textarea {
+  padding: 5px 10px 5px 10px;
   width: 100%;
   height: 35px;
+  border-radius: 5px;
+  border-color: #9747FF;
 }
 
 .title-character-count {
@@ -1239,8 +1248,16 @@ main {
 }
 
 .text-creation-section textarea {
-  width: 100%;
+  padding: 10px;
+  width: 97%;
   height: 350px;
+  border-radius: 5px;
+  border-color: #9747FF;
+}
+
+.text-creation-section textarea:focus {
+  outline: none;
+  border: 2px solid #9747FF;
 }
 
 .post-creation-footer-section {
