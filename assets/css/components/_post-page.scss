@@ -100,3 +100,47 @@
     font-size: 25px;
     font-weight: bold;
 }
+
+.recent-posts{
+    display: flex;
+}
+
+.recent-post-links{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.recent-post-links a{
+    display: flex;
+    align-items: center;
+    color: #ffff;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5px;
+
+}
+
+.ime-naslov{
+    display: flex;
+    justify-content: center;
+    flex-direction: column ;
+}
+
+.ime-naslov img{
+padding-right: 10px;
+}
+
+.title-of-the-post{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+.communitye-title-icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #ffff;
+}
