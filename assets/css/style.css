@@ -1472,4 +1472,39 @@ main {
   flex-direction: row;
   align-items: center;
   color: white;
+}
+
+.aside-recent-post-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 160px;
+  overflow: hidden;
+  background-color: #353434;
+}
+
+.comment-button {
+  display: flex;
+  justify-content: left;
+}
+
+.post-a-comment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: #9747FF;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 140px;
+  height: 45px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+.post-a-comment img {
+  padding-right: 10px;
 }/*# sourceMappingURL=style.css.map */
