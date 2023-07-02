@@ -393,7 +393,7 @@ header {
   color: #FFFFFF;
 }
 
-.divader {
+.divider {
   display: flex;
   align-self: center;
   border-top: 1px solid #9747FF;
@@ -890,7 +890,7 @@ main {
   height: 100px;
 }
 
-.acc-info-divader {
+.acc-info-divider {
   display: flex;
   justify-content: center;
   border-top: 1px solid #9747FF;
@@ -1066,7 +1066,7 @@ main {
   color: #FFFFFF;
 }
 
-.divader {
+.divider {
   display: flex;
   align-self: center;
   border-top: 1px solid #9747FF;
@@ -1401,7 +1401,7 @@ main {
   border-radius: 5px;
 }
 
-.divader-under-sotial-buttons {
+.divider-under-sotial-buttons {
   width: 720px;
   height: 1px;
   background-color: #9747FF;

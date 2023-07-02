@@ -1,180 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GaggiT</title>
     <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
+  </head>
+  <body>
     <!---------------------------------------Main menu (header)---------------------------------->
 
-  <nav class="header">
-    <ul class="main-menu">
-        <li class="main-menu1 gag_it"><a href=""><img src="assets/img/icons/GaggiTLogo.png" alt=""></a></li>
+    <nav class="header">
+      <ul class="main-menu">
+        <li class="main-menu1 gag_it"><a href><img
+              src="assets/img/icons/GaggiTLogo.png" alt></a></li>
         <li class="main-menu1 dive_in">
-            <p>Dive in</p>
-            <img height="20" src="assets/img/icons/angle-down.png" alt="">
+          <p>Dive in</p>
+          <img height="20" src="assets/img/icons/angle-down.png" alt>
         </li>
         <li class="main-menu1 search_bar">
-            <form method="get" action="/search" id="search_bar1">
-                <input id="search field" type="text" size="30" placeholder="Search GaggiT..." name="q">
-            </form>
+          <form method="get" action="/search" id="search_bar1">
+            <input id="search field" type="text" size="30"
+              placeholder="Search GaggiT..." name="q">
+          </form>
         </li>
         <li class="main-menu1 log_in">
-            <button onclick="logoutTheUser()" id="login-button">Log Out</button>
+          <button onclick="logoutTheUser()" id="login-button">Log Out</button>
         </li>
-    </ul>
-</nav>
+      </ul>
+    </nav>
 
-<!---------------------------------------Navbar + Post wrapper---------------------------------->
-<main>
-    <div class="container">
-      <section id="posts-section">
-        <div id="navbar-filter-menu"></div>
-        <div class="posts-wrapper">
-<!---------------------------------------Post---------------------------------->
-          <div class="post-item">
-            <div class="upvotes">
-              <div>
-                <button class="upvote">
-                  <img class="upvote-arrow-up" height="25" src="assets/img/icons/filter-navbar-icons/arrow.png" alt="">
-                </button>
-                <div class="numbers">
-                  <h3>666</h3>
-                </div>
-                <button>
-                  <img class="upvote-arrow-down" height="25" src="assets/img/icons/arrow-down.png" alt="">
-                </button>
-              </div>                              
-            </div>                    
-            <div class="post-item-body">    
-              <div class="post-item-header">
-                <div class="icon" >
-                  <img height="30" src="assets/img/icons/King_in_Yellow.png" alt="">
-                </div>
-                <div class="post-item-header-content" >
-                  <h3 class="post-item-placeholder" >Funny</h3>
-                </div>
+    <!---------------------------------------Navbar + Post wrapper---------------------------------->
+    <main>
+      <div class="container">
+        <section id="posts-section">
+          <div id="navbar-filter-menu"></div>
+          <div class="posts-wrapper">
+            <!---------------------------------------Post---------------------------------->
+            <div class="post-item">
+              <div class="upvotes">
                 <div>
-                  <button class="join-button" >Join</button>
-                </div>
-              </div>  
-              <div class="post-title" >
-                <div class="post-title-content" >
-                  <a href="">Silver boomstick for crazy demons...</a>
+                  <button class="upvote">
+                    <img class="upvote-arrow-up" height="25"
+                      src="assets/img/icons/filter-navbar-icons/arrow.png" alt>
+                  </button>
+                  <div class="numbers">
+                    <h3>666</h3>
+                  </div>
+                  <button>
+                    <img class="upvote-arrow-down" height="25"
+                      src="assets/img/icons/arrow-down.png" alt>
+                  </button>
                 </div>
               </div>
-              <div class="post-content">
-                <img src="assets/img/icons/bruce.jpg" alt="">
+              <div class="post-item-body">
+                <div class="post-item-header">
+                  <div class="icon">
+                    <img height="30" src="assets/img/icons/King_in_Yellow.png"
+                      alt>
+                  </div>
+                  <div class="post-item-header-content">
+                    <h3 class="post-item-placeholder">Funny</h3>
+                  </div>
+                  <div>
+                    <button class="join-button">Join</button>
+                  </div>
+                </div>
+                <div class="post-title">
+                  <div class="post-title-content">
+                    <a href>Silver boomstick for crazy demons...</a>
+                  </div>
+                </div>
+                <div class="post-content">
+                  <img src="assets/img/icons/bruce.jpg" alt>
+                </div>
+                <div class="post-footer-section">
+                  <a class="coment" href>Coment</a>
+                  <div class="share">
+                    <button class="post-footer-button"> Share </button>
+                  </div>
+                  <div class="save">
+                    <button class="post-footer-button"> Save </button>
+                  </div>
+                  <div class="three-dots">
+                    <button class="post-footer-button"> ... </button>
+                  </div>
+                </div>
               </div>
-              <div class="post-footer-section">
-                <a class="coment" href="">Coment</a>
-                <div class="share">
-                  <button class="post-footer-button" > Share </button>
-                </div>
-                <div class="save">
-                  <button class="post-footer-button" > Save </button>
-                </div>
-                <div class="three-dots">
-                  <button class="post-footer-button" > ... </button>
-                </div> 
-               </div>                                                            
-            </div>                
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-<!---------------------------------------Aside section (popular communities)---------------------------------->
+        <!---------------------------------------Aside section (popular communities)---------------------------------->
 
-    <aside id="aside-section">
-        <div class="aside-section-wrapper">
+        <aside id="aside-section">
+          <div class="aside-section-wrapper">
             <div class="acc-info-wrapper">
-                <div class="acc-info" >
-                    <div class="acc-info-img">
-                        <img height="40" src="assets/img/icons/King_in_Yellow.png" alt="">
-                   </div>
-                    <div class="acc-info-img">
-                        <p>King_in_Yellow</p>
-                    </div>
+              <div class="acc-info">
+                <div class="acc-info-img">
+                  <img height="40" src="assets/img/icons/King_in_Yellow.png" alt>
                 </div>
-                <div class="acc-info-divader" ></div>
-                <div class="sotial-icons" >
-                    <div class="post-pencil">
-                        <div class="pencile-icon" >
-                            <img height="14" src="assets/img/icons/pencil.png" alt="">
-                        </div>
-                        <a href="">Post</a>  
-                    </div>
-                    <div class="chat-coment">
-                        <div class="comment-icon">
-                            <img height="14" src="assets/img/icons/comment-alt.png" alt="">
-                        </div>
-                        <a href="">Chat</a>
-                    </div>
-                    <div class="mail-envelope" >
-                        <div class="envelope-icon">
-                            <img height="14" src="assets/img/icons/envelope.png" alt="">
-                        </div>
-                        <a href="">Mail</a>
-                    </div>
-                
+                <div class="acc-info-img">
+                  <p>King_in_Yellow</p>
                 </div>
-            </div> 
-          <div class="aside-section-post">
-            <div class="aside-section-post-header-following">
+              </div>
+              <div class="acc-info-divider"></div>
+              <div class="sotial-icons">
+                <div class="post-pencil">
+                  <div class="pencile-icon">
+                    <img height="14" src="assets/img/icons/pencil.png" alt>
+                  </div>
+                  <a href>Post</a>
+                </div>
+                <div class="chat-coment">
+                  <div class="comment-icon">
+                    <img height="14" src="assets/img/icons/comment-alt.png" alt>
+                  </div>
+                  <a href>Chat</a>
+                </div>
+                <div class="mail-envelope">
+                  <div class="envelope-icon">
+                    <img height="14" src="assets/img/icons/envelope.png" alt>
+                  </div>
+                  <a href>Mail</a>
+                </div>
+              </div>
+            </div>
+            <div class="aside-section-post">
+              <div class="aside-section-post-header-following">
                 <h3>Following</h3>
                 <hr class="separator">
-            </div>
-            <div class="aside-section-post-body-following">
+              </div>
+              <div class="aside-section-post-body-following">
                 <ul class="user-names">
-                    <li> <img height="25" src="assets/img/icons/user-icons/kratos7.png" alt=""> <a href="">Kratos_Must_Sleep</a></li>
-                    <li> <img height="25" src="assets/img/icons/user-icons/slowpoke.png" alt=""><a href="">Slowpoke_Monkey</a></li>
-                    <li><img height="25" src="assets/img/icons/user-icons/whizard 9.png" alt=""><a href="">Whizard_Of_Booze</a></li>
-                    <li><img height="25" src="assets/img/icons/user-icons/tarot.png" alt=""><a href="">Tarot_Is_Real</a></li>
-                </ul>               
+                  <li>
+                    <img height="25" src="assets/img/icons/user-icons/kratos7.png" alt="">
+                    <a href>Kratos_Must_Sleep</a>
+                  </li>
+                  <li> 
+                    <img height="25" src="assets/img/icons/user-icons/slowpoke.png" alt="">
+                    <a href>Slowpoke_Monkey</a>
+                  </li>
+                  <li>
+                    <img height="25" src="assets/img/icons/user-icons/whizard 9.png" alt="">
+                    <a href>Whizard_Of_Booze</a>
+                  </li>
+                  <li>
+                    <img height="25" src="assets/img/icons/user-icons/tarot.png" alt="">
+                    <a href>Tarot_Is_Real</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="aside-section-post-header-favorites">
+                <h3>Favorites</h3>
+                <hr class="separator">
+              </div>
+              <div class="aside-section-post-body">
+                <ul id="aside-categories-container" class="aside-categories"></ul>
+              </div>
             </div>
-            <div class="aside-section-post-header-favorites">
-              <h3>Favorites</h3>
-              <hr class="separator">
-            </div>
-            <div class="aside-section-post-body">
-              <ul id="aside-categories-container" class="aside-categories"></ul>
+            <div class="terms-and-policies-section-wrapper">
+              <div class="terms-and-policies-section">
+                <a href>Help center</a>
+                <a href>Terms and Policies</a>
+                <a href>Advertise on GaggiT</a>
+                <a href>More</a>
+              </div>
             </div>
           </div>
-          <div class="terms-and-policies-section-wrapper">
-            <div class="terms-and-policies-section" >
-                <a href="">Help center</a>
-                <a href="">Terms and Policies</a>
-                <a href="">Advertise on GaggiT</a>
-                <a href="">More</a>
+          <div class="usef-footer-divider">
+            <div class="user-footer">
+              <div class="user-agreement-content-policy">
+                <a href="">User Agreement</a>
+                <a href="">Content Policy</a>
+              </div>
+              <div class="privacy-policy">
+                <a href="">Privacy Policy</a>
+              </div>
             </div>
-        </div> 
-        </div>
-        <div class="usef-footer-divider">
-          <div class="user-footer" >
-            <div class="user-agreement-content-policy" >
-              <a href="">User Agreement</a>
-              <a href="">Content Policy</a>
-            </div>
-            <div class="privacy-policy" >
-              <a href="">Privacy Policy</a>
-            </div>         
+            <span class="divider"></span>
           </div>
-          <span class="divader" ></span>
-        </div>
-       
-      </aside>
-    </div>
-  </main>
-  
-  <button id="back-to-top-button" title="Go to top">Back to Top</button>
-  
-  <footer></footer>
 
-  <script type="module" src="/assets/js/app.js"></script>
-  <script src="/assets/js/api/controllers/user-controller.js"></script>
-  <script src="/assets/js/api/guards/redirect-controller.js"></script>
+        </aside>
+      </div>
+    </main>
 
-</body>
+    <button id="back-to-top-button" title="Go to top">Back to Top</button>
+
+    <footer></footer>
+
+    <script type="module" src="/assets/js/app.js"></script>
+    <script src="/assets/js/api/controllers/user-controller.js"></script>
+    <script src="/assets/js/api/guards/redirect-controller.js"></script>
+
+  </body>
 </html>
