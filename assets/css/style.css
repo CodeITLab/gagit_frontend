@@ -1487,6 +1487,7 @@ main {
 .comment-button {
   display: flex;
   justify-content: left;
+  flex-direction: column;
 }
 
 .post-a-comment {
@@ -1507,4 +1508,46 @@ main {
 
 .post-a-comment img {
   padding-right: 10px;
+}
+
+.comment-textaria-box {
+  margin-top: 10px;
+  height: 200px;
+  padding: 10px;
+}
+
+.post-comments {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.comment-posting {
+  display: none;
+}
+
+.comment-posting-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+}
+
+.post-the-comment-container {
+  display: flex;
+  justify-content: right;
+  margin-top: 10px;
+}
+
+.poste-the-comment {
+  background-color: #9747FF;
+  border-radius: 20px;
+  width: 100px;
+  height: 40px;
+  border: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */

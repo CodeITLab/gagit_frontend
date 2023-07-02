@@ -4,6 +4,7 @@ import asideFollowList from './components/aside-followers-component/aside-catego
 
 import './utilities/login-popup.js';
 import './utilities/back-to-top-button.js';
+import './utilities/comment-button.js';
 
 createNavbarElement();
 createAsideCategories();
