@@ -692,7 +692,6 @@ main {
 
 /* ---------------Popup (background)----------*/
 .popup-wrapper {
-  display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   width: 400px; /* Full width */ /* Full height */
@@ -820,6 +819,14 @@ main {
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+.none {
+  display: none;
+}
+
+.block {
+  display: block;
 }
 
 .aside-section-post {
