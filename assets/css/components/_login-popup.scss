@@ -78,10 +78,13 @@
     box-sizing: border-box;
     margin-bottom: 18px;
     width: 200px;
-    
   }
 
-  .login-option-social-buttons a{
+  .login-option-social-buttons:hover {
+    cursor: pointer;
+  }
+
+  .login-option-social-buttons p{
     text-decoration: none;
     color: #353434;
   }
