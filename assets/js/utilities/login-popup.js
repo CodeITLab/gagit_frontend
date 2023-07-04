@@ -1,12 +1,17 @@
 
 let modal = document.getElementById("login-popup-wrapper");
-let btn = document.getElementById("login-button");
-let span = document.getElementsByClassName("close")[0];
 
-btn.onclick = function() {
-  modal.style.display = "block";
+function openModal() {
+  openCloseModal('none', 'block');
 }
 
-span.onclick = function() {
-  modal.style.display = "none";
+function closeModal() {
+  openCloseModal('block', 'none');
+}
+
+function openCloseModal(classToCheck, classToAdd) {
+  if(modal.classList.contains(classToCheck)) {
+    modal.classList.remove(classToCheck);
+    modal.classList.add(classToAdd);
+  }
 }

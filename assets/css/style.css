@@ -393,7 +393,7 @@ header {
   color: #FFFFFF;
 }
 
-.divader {
+.divider {
   display: flex;
   align-self: center;
   border-top: 1px solid #9747FF;
@@ -692,7 +692,6 @@ main {
 
 /* ---------------Popup (background)----------*/
 .popup-wrapper {
-  display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   width: 400px; /* Full width */ /* Full height */
@@ -772,7 +771,11 @@ main {
   width: 200px;
 }
 
-.login-option-social-buttons a {
+.login-option-social-buttons:hover {
+  cursor: pointer;
+}
+
+.login-option-social-buttons p {
   text-decoration: none;
   color: #353434;
 }
@@ -816,6 +819,14 @@ main {
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+.none {
+  display: none;
+}
+
+.block {
+  display: block;
 }
 
 .aside-section-post {
@@ -879,7 +890,7 @@ main {
   height: 100px;
 }
 
-.acc-info-divader {
+.acc-info-divider {
   display: flex;
   justify-content: center;
   border-top: 1px solid #9747FF;
@@ -1055,7 +1066,7 @@ main {
   color: #FFFFFF;
 }
 
-.divader {
+.divider {
   display: flex;
   align-self: center;
   border-top: 1px solid #9747FF;
@@ -1390,7 +1401,7 @@ main {
   border-radius: 5px;
 }
 
-.divader-under-sotial-buttons {
+.divider-under-sotial-buttons {
   width: 720px;
   height: 1px;
   background-color: #9747FF;

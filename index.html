@@ -24,14 +24,14 @@
             </form>
         </li>
         <li class="main-menu1 log_in">
-            <button id="login-button">Log In</button>
+            <button onclick="openModal()" id="login-button">Log In</button>
         </li>
     </ul>
 </nav>
 <!---------------------------------------Login Popup---------------------------------->
-<div id="login-popup-wrapper" class="popup-wrapper" >
+<div id="login-popup-wrapper" class="popup-wrapper none" >
   <div class="popup-content" >
-    <span class="close">&times;</span>
+    <span onclick="closeModal()" class="close">&times;</span>
       <div class="popup-text-box-wrapper">
         <div class="popup-text-box" >
           <div class="login-title" >
@@ -43,11 +43,13 @@
           <form class="login-options" action="/login" method="post">
             <div class="social">
               <div class="login-option-social-buttons" >
-                <div class="login-option-social-button-one">
-                  <img height="20" src="assets/img/icons/google_logo.png" alt=""><a href="formu.html"0>Google account</a>
+                <div onclick="userLogin()" class="login-option-social-button-one">
+                  <img height="20" src="assets/img/icons/google_logo.png" alt="">
+                  <p>Google account</p>
                 </div>
                 <div class="login-option-social-button-two" >
-                 <img height="25" src="assets/img/icons/Facebook_Logo_(2019).png" alt=""><a href="">Facebook Account</a>
+                 <img height="25" src="assets/img/icons/Facebook_Logo_(2019).png" alt="">
+                 <a href="">Facebook Account</a>
                 </div>
             </div>
           </div>           
@@ -144,7 +146,7 @@
               <a href="">Privacy Policy</a>
             </div>         
           </div>
-          <span class="divader" ></span>
+          <span class="divider" ></span>
         </div>
        
       </aside>
@@ -156,5 +158,7 @@
   <footer></footer>
 
   <script type="module" src="/assets/js/app.js"></script>
+  <script src="/assets/js/utilities/login-popup.js"></script>
+  <script src="/assets/js/api/controllers/user-controller.js"></script>
 </body>
 </html>

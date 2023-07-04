@@ -1,6 +1,5 @@
 /* ---------------Popup (background)----------*/
 .popup-wrapper {
-    display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
     width: 400px; /* Full width */ /* Full height */
@@ -78,10 +77,13 @@
     box-sizing: border-box;
     margin-bottom: 18px;
     width: 200px;
-    
   }
 
-  .login-option-social-buttons a{
+  .login-option-social-buttons:hover {
+    cursor: pointer;
+  }
+
+  .login-option-social-buttons p{
     text-decoration: none;
     color: #353434;
   }
@@ -124,4 +126,14 @@
     color: #000;
     text-decoration: none;
     cursor: pointer;
+  }
+
+  // Additional Classes
+
+  .none {
+    display: none;
+  }
+
+  .block {
+    display: block;
   }

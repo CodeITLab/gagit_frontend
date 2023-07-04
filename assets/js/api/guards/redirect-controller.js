@@ -1,4 +1,4 @@
-const protectedRoutes = ['homepage.html']
+const protectedRoutes = ['homepage.html', 'create.html', 'postpage.html']
 const token = localStorage.getItem('isUserAuthenticated');
 
 function isUserAuthenticated() {
@@ -16,4 +16,4 @@ function redirectUser() {
     }
 }
 
-//redirectUser();
+redirectUser();
