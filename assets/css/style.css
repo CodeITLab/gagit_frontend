@@ -1561,4 +1561,45 @@ main {
   color: white;
   font-weight: bold;
   cursor: pointer;
+}
+
+.post-comments {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.user-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.user-comment {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+.user-comment p {
+  margin-left: 40px;
+}
+
+.replay {
+  display: flex;
+  justify-content: right;
+  margin-top: 20px;
+}
+
+.replay button {
+  cursor: pointer;
+}
+
+.replay-user-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 40px;
 }/*# sourceMappingURL=style.css.map */
