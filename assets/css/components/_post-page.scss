@@ -1,5 +1,6 @@
 
 
+
 .post-container{
     display: flex;
     flex-direction:column;
@@ -158,6 +159,7 @@ padding-right: 10px;
 .comment-button{
     display: flex;
     justify-content: left;
+    flex-direction: column;
 }
 
 .post-a-comment{
@@ -179,3 +181,87 @@ padding-right: 10px;
 .post-a-comment img{
     padding-right: 10px;
 }
+
+.comment-textaria-box{
+    margin-top: 10px;
+    height: 200px;
+    padding: 10px;
+   
+}
+
+.post-comments{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.comment-posting{ 
+    display: none;
+} 
+
+.comment-posting-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
+.post-the-comment-container{
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
+}
+
+.poste-the-comment{
+    background-color: #9747FF;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.post-comments{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.user-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.user-comment{
+    display: flex;
+    flex-direction: column;
+    color: #ffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;  
+}
+.user-comment p{
+    margin-left: 40px;
+}
+
+.replay{
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+}
+.replay button{
+    cursor: pointer;
+}
+
+.replay-user-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 40px;
+}
+
+
